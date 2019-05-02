@@ -1,0 +1,10 @@
+#ifndef CAPTEUR_H
+#define CAPTEUR_H
+
+namespace nsDigicode {
+    class detecter {
+    public:
+        
+    };
+}
+#endif // CAPTEUR_H

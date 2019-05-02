@@ -7,10 +7,19 @@ namespace nsDigicode {
 
 	class ObjetTempo 
     {
+    protected:
+        bool myAttente;
+        int myDelai;
+        Chrono* mypChrono;
+
     public:
-        Chrono* getChrono() {}
-        void finTempo() {}
-        int getDelai() {}
+        ObjetTempo(Chrono* pchrono, int delai);
+        Chrono* getChrono();
+        void finTempo();
+        int getDelai();
+    };
+    class InterfacedeSaisie{
+
     };
 	
 } /* ns_Digicode */

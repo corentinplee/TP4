@@ -1,0 +1,9 @@
+#include <iostream>
+#include "system.h"
+using namespace std;
+
+int main(void)
+{
+    nsDigicode::Systeme system(DELAI_CLAVIER, DELAI_PORTE, NB_CHIFFRES_CLAVIER);
+    return 0;
+}

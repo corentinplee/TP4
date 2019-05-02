@@ -1,0 +1,13 @@
+#include "Voyant.h"
+#include<iostream>
+
+using namespace std;
+
+string nsDigicode::Voyant::Voyant(Couleur couleur, Etat etat) : myCouleur(couleur), myEtat(etat)
+{
+
+    
+    
+}
+
+void Voyant::allumer()
